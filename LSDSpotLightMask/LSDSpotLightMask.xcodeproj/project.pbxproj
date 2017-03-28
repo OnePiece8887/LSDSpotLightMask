@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA520DB81E89138000C5C473 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA520DB71E89138000C5C473 /* main.m */; };
+		EA520DBB1E89138000C5C473 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA520DBA1E89138000C5C473 /* AppDelegate.m */; };
+		EA520DBE1E89138000C5C473 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA520DBD1E89138000C5C473 /* ViewController.m */; };
+		EA520DC11E89138000C5C473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA520DBF1E89138000C5C473 /* Main.storyboard */; };
+		EA520DC31E89138000C5C473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA520DC21E89138000C5C473 /* Assets.xcassets */; };
+		EA520DC61E89138000C5C473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA520DC41E89138000C5C473 /* LaunchScreen.storyboard */; };
+		EA520DD11E89138000C5C473 /* LSDSpotLightMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA520DD01E89138000C5C473 /* LSDSpotLightMaskTests.m */; };
+		EA520DDC1E89138000C5C473 /* LSDSpotLightMaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA520DDB1E89138000C5C473 /* LSDSpotLightMaskUITests.m */; };
+		EA520DEB1E89141400C5C473 /* LSDSpotLightMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA520DEA1E89141400C5C473 /* LSDSpotLightMaskView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA520DCD1E89138000C5C473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA520DAB1E89138000C5C473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA520DB21E89138000C5C473;
+			remoteInfo = LSDSpotLightMask;
+		};
+		EA520DD81E89138000C5C473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA520DAB1E89138000C5C473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA520DB21E89138000C5C473;
+			remoteInfo = LSDSpotLightMask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA520DB31E89138000C5C473 /* LSDSpotLightMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSDSpotLightMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA520DB71E89138000C5C473 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA520DB91E89138000C5C473 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA520DBA1E89138000C5C473 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA520DBC1E89138000C5C473 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA520DBD1E89138000C5C473 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA520DC01E89138000C5C473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA520DC21E89138000C5C473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA520DC51E89138000C5C473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA520DC71E89138000C5C473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA520DCC1E89138000C5C473 /* LSDSpotLightMaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSDSpotLightMaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA520DD01E89138000C5C473 /* LSDSpotLightMaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSDSpotLightMaskTests.m; sourceTree = "<group>"; };
+		EA520DD21E89138000C5C473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA520DD71E89138000C5C473 /* LSDSpotLightMaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSDSpotLightMaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA520DDB1E89138000C5C473 /* LSDSpotLightMaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSDSpotLightMaskUITests.m; sourceTree = "<group>"; };
+		EA520DDD1E89138000C5C473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA520DE91E89141400C5C473 /* LSDSpotLightMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSpotLightMaskView.h; sourceTree = "<group>"; };
+		EA520DEA1E89141400C5C473 /* LSDSpotLightMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSpotLightMaskView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA520DB01E89138000C5C473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA520DC91E89138000C5C473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA520DD41E89138000C5C473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA520DAA1E89138000C5C473 = {
+			isa = PBXGroup;
+			children = (
+				EA520DB51E89138000C5C473 /* LSDSpotLightMask */,
+				EA520DCF1E89138000C5C473 /* LSDSpotLightMaskTests */,
+				EA520DDA1E89138000C5C473 /* LSDSpotLightMaskUITests */,
+				EA520DB41E89138000C5C473 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA520DB41E89138000C5C473 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA520DB31E89138000C5C473 /* LSDSpotLightMask.app */,
+				EA520DCC1E89138000C5C473 /* LSDSpotLightMaskTests.xctest */,
+				EA520DD71E89138000C5C473 /* LSDSpotLightMaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA520DB51E89138000C5C473 /* LSDSpotLightMask */ = {
+			isa = PBXGroup;
+			children = (
+				EA520DB91E89138000C5C473 /* AppDelegate.h */,
+				EA520DBA1E89138000C5C473 /* AppDelegate.m */,
+				EA520DBC1E89138000C5C473 /* ViewController.h */,
+				EA520DBD1E89138000C5C473 /* ViewController.m */,
+				EA520DE91E89141400C5C473 /* LSDSpotLightMaskView.h */,
+				EA520DEA1E89141400C5C473 /* LSDSpotLightMaskView.m */,
+				EA520DBF1E89138000C5C473 /* Main.storyboard */,
+				EA520DC21E89138000C5C473 /* Assets.xcassets */,
+				EA520DC41E89138000C5C473 /* LaunchScreen.storyboard */,
+				EA520DC71E89138000C5C473 /* Info.plist */,
+				EA520DB61E89138000C5C473 /* Supporting Files */,
+			);
+			path = LSDSpotLightMask;
+			sourceTree = "<group>";
+		};
+		EA520DB61E89138000C5C473 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA520DB71E89138000C5C473 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA520DCF1E89138000C5C473 /* LSDSpotLightMaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA520DD01E89138000C5C473 /* LSDSpotLightMaskTests.m */,
+				EA520DD21E89138000C5C473 /* Info.plist */,
+			);
+			path = LSDSpotLightMaskTests;
+			sourceTree = "<group>";
+		};
+		EA520DDA1E89138000C5C473 /* LSDSpotLightMaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA520DDB1E89138000C5C473 /* LSDSpotLightMaskUITests.m */,
+				EA520DDD1E89138000C5C473 /* Info.plist */,
+			);
+			path = LSDSpotLightMaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA520DB21E89138000C5C473 /* LSDSpotLightMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA520DE01E89138000C5C473 /* Build configuration list for PBXNativeTarget "LSDSpotLightMask" */;
+			buildPhases = (
+				EA520DAF1E89138000C5C473 /* Sources */,
+				EA520DB01E89138000C5C473 /* Frameworks */,
+				EA520DB11E89138000C5C473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSDSpotLightMask;
+			productName = LSDSpotLightMask;
+			productReference = EA520DB31E89138000C5C473 /* LSDSpotLightMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA520DCB1E89138000C5C473 /* LSDSpotLightMaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA520DE31E89138000C5C473 /* Build configuration list for PBXNativeTarget "LSDSpotLightMaskTests" */;
+			buildPhases = (
+				EA520DC81E89138000C5C473 /* Sources */,
+				EA520DC91E89138000C5C473 /* Frameworks */,
+				EA520DCA1E89138000C5C473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA520DCE1E89138000C5C473 /* PBXTargetDependency */,
+			);
+			name = LSDSpotLightMaskTests;
+			productName = LSDSpotLightMaskTests;
+			productReference = EA520DCC1E89138000C5C473 /* LSDSpotLightMaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA520DD61E89138000C5C473 /* LSDSpotLightMaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA520DE61E89138000C5C473 /* Build configuration list for PBXNativeTarget "LSDSpotLightMaskUITests" */;
+			buildPhases = (
+				EA520DD31E89138000C5C473 /* Sources */,
+				EA520DD41E89138000C5C473 /* Frameworks */,
+				EA520DD51E89138000C5C473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA520DD91E89138000C5C473 /* PBXTargetDependency */,
+			);
+			name = LSDSpotLightMaskUITests;
+			productName = LSDSpotLightMaskUITests;
+			productReference = EA520DD71E89138000C5C473 /* LSDSpotLightMaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA520DAB1E89138000C5C473 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = OnePiece;
+				TargetAttributes = {
+					EA520DB21E89138000C5C473 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Manual;
+					};
+					EA520DCB1E89138000C5C473 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA520DB21E89138000C5C473;
+					};
+					EA520DD61E89138000C5C473 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA520DB21E89138000C5C473;
+					};
+				};
+			};
+			buildConfigurationList = EA520DAE1E89138000C5C473 /* Build configuration list for PBXProject "LSDSpotLightMask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA520DAA1E89138000C5C473;
+			productRefGroup = EA520DB41E89138000C5C473 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA520DB21E89138000C5C473 /* LSDSpotLightMask */,
+				EA520DCB1E89138000C5C473 /* LSDSpotLightMaskTests */,
+				EA520DD61E89138000C5C473 /* LSDSpotLightMaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA520DB11E89138000C5C473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA520DC61E89138000C5C473 /* LaunchScreen.storyboard in Resources */,
+				EA520DC31E89138000C5C473 /* Assets.xcassets in Resources */,
+				EA520DC11E89138000C5C473 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA520DCA1E89138000C5C473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA520DD51E89138000C5C473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA520DAF1E89138000C5C473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA520DBE1E89138000C5C473 /* ViewController.m in Sources */,
+				EA520DEB1E89141400C5C473 /* LSDSpotLightMaskView.m in Sources */,
+				EA520DBB1E89138000C5C473 /* AppDelegate.m in Sources */,
+				EA520DB81E89138000C5C473 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA520DC81E89138000C5C473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA520DD11E89138000C5C473 /* LSDSpotLightMaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA520DD31E89138000C5C473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA520DDC1E89138000C5C473 /* LSDSpotLightMaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA520DCE1E89138000C5C473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA520DB21E89138000C5C473 /* LSDSpotLightMask */;
+			targetProxy = EA520DCD1E89138000C5C473 /* PBXContainerItemProxy */;
+		};
+		EA520DD91E89138000C5C473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA520DB21E89138000C5C473 /* LSDSpotLightMask */;
+			targetProxy = EA520DD81E89138000C5C473 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA520DBF1E89138000C5C473 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA520DC01E89138000C5C473 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA520DC41E89138000C5C473 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA520DC51E89138000C5C473 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA520DDE1E89138000C5C473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA520DDF1E89138000C5C473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA520DE11E89138000C5C473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LSDSpotLightMask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDSpotLightMask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA520DE21E89138000C5C473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LSDSpotLightMask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDSpotLightMask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA520DE41E89138000C5C473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSDSpotLightMaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDSpotLightMaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSDSpotLightMask.app/LSDSpotLightMask";
+			};
+			name = Debug;
+		};
+		EA520DE51E89138000C5C473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSDSpotLightMaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDSpotLightMaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSDSpotLightMask.app/LSDSpotLightMask";
+			};
+			name = Release;
+		};
+		EA520DE71E89138000C5C473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSDSpotLightMaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDSpotLightMaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSDSpotLightMask;
+			};
+			name = Debug;
+		};
+		EA520DE81E89138000C5C473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSDSpotLightMaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDSpotLightMaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSDSpotLightMask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA520DAE1E89138000C5C473 /* Build configuration list for PBXProject "LSDSpotLightMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA520DDE1E89138000C5C473 /* Debug */,
+				EA520DDF1E89138000C5C473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA520DE01E89138000C5C473 /* Build configuration list for PBXNativeTarget "LSDSpotLightMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA520DE11E89138000C5C473 /* Debug */,
+				EA520DE21E89138000C5C473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA520DE31E89138000C5C473 /* Build configuration list for PBXNativeTarget "LSDSpotLightMaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA520DE41E89138000C5C473 /* Debug */,
+				EA520DE51E89138000C5C473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA520DE61E89138000C5C473 /* Build configuration list for PBXNativeTarget "LSDSpotLightMaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA520DE71E89138000C5C473 /* Debug */,
+				EA520DE81E89138000C5C473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA520DAB1E89138000C5C473 /* Project object */;
+}
